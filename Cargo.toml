@@ -1,0 +1,14 @@
+[package]
+name = "tsmwssh"
+version = "1.0.0"
+authors = ["TSMStudios", "SaphirDeFeu"]
+description = "TSMWebServerShell: a cross-language minimalist web library"
+edition = "2021"
+
+[lib]
+name = "tsm_webserver_shell"
+path = "src/mod.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]

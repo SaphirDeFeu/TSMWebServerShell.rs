@@ -3,12 +3,17 @@ name = "tsmwssh"
 version = "1.0.0"
 authors = ["TSMStudios", "SaphirDeFeu"]
 description = "TSMWebServerShell: a cross-language minimalist web library"
+readme = "README.md"
+license-file = "LICENSE"
+keywords = ["web", "server", "tcp", "api"]
+categories = ["web-programming::http-server"]
+repository = "https://github.com/SaphirDeFeu/TSMWebServerShell.rs"
+# homepage = ""
+# documentation = ""
 edition = "2021"
 
 [lib]
 name = "tsm_webserver_shell"
 path = "src/mod.rs"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
